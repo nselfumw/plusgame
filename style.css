@@ -1,0 +1,22 @@
+#plus-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+#south {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
